@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -54,6 +52,29 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin-right: 2%;
+ 
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 7%;
+}
+
+.headerimg {
+    width: 75%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#jumbo {
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,8 +88,11 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .top-content {
@@ -77,10 +101,14 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-right: 2%;
+    margin-left: 1%;
+    
+    
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 49%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -88,6 +116,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -110,16 +139,17 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
     justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    width: 22%;
+    margin-bottom: 3%;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +173,75 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+.box1, .box2, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    padding-left: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 15%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 15px;
+}
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+margin-left: 7.5%;
+    margin-right: 7.5%;
+
+.boxes {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between; 
+   margin-right: 5%;
+}
+
+.navbar a:link, .navbar a:visited {
+    text-decoration: none;
+    color: black;
 }
